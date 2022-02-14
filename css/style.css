@@ -1,0 +1,27 @@
+.main__bg__color {
+  background-color: #82bd3e;
+}
+.main__color {
+  color: #82bd3e;
+}
+.font__lato {
+  font-family: "Lato", sans-serif;
+}
+.font__play {
+  font-family: "Play", sans-serif;
+}
+
+.title-span::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  opacity: 0.8;
+  border-radius: 50px;
+  background: #000;
+}
+.size {
+  font-size: 3rem;
+}
